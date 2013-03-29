@@ -1,9 +1,10 @@
-html, body{ color: #454545; height:100%; font-size: 30px !important;}
-body,div,ul,li { margin:0; padding:0;}
-#page { min-height:100%; _height:100%; margin-bottom:0px;}
+.center{margin: 0 auto; text-align: center;}
+body,h1,h2,h3 {font-size:30px;}
 a{text-decoration: none;color: green;}
 a:hover{text-decoration: underline;}
-
+html, body{ color: #454545; height:100%;font-family: "Lucida Sans Unicode", sans-serif;}
+body,div,ul,li { margin:0; padding:0;}
+#page { min-height:100%; _height:100%; margin-bottom:0px;}
 #menu ul li, #menu ul
 {
    display :inline;
@@ -11,19 +12,17 @@ a:hover{text-decoration: underline;}
    padding-right: 0.5em;   
 }
 #menu{font-size:1.1em;}
-#menu a{color: white;font-style: none;}
-#menu a:hover{color: white;font-style: normal;}
+#menu a,#menu a:hover{color: #fa8072;font-style: none;}
 #nav{padding-top: 2em;}
 #nav a:hover{font-style: italic;}
-#nav table,h1{margin: 0 auto;font-size:45px;font-weight: bold;}
+#nav table{margin: 0 auto;}
+#nav table a,#nav table h1{margin: 0 auto;font-size:1.5em;font-weight: bold;}
 #nav table h1{margin-left:1em;margin-right:1em;}
 
 #menu, .footer{
 background-color: #1b1b1b;
-padding-left:0.5em;
+padding:0.1em 0.5em 0.1em 0.5em;
 }
-.content{
-line-height: 1.7;
-padding: 1.5em 8% 3em 8%;
-}
+.footer{font-size:0.8em;text-align:center;}
+.content{line-height: 1.7;padding: 1.5em 8% 3em 8%;}
 .verse{text-decoration: underline;}
