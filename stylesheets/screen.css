@@ -1,15 +1,18 @@
 .center{margin: 0 auto; text-align: center;}
-body,h1,h2,h3 {font-size:30px;}
+body {font-size:120%;}
 a{text-decoration: none;color: green;}
 a:hover{text-decoration: underline;}
-html, body{ color: #454545; height:100%;font-family: "Lucida Sans Unicode", sans-serif;}
+html, body{ color: #454545; height:100%; font-family: "Lucida Sans Unicode", sans-serif; background-color: white;}
 body,div,ul,li { margin:0; padding:0;}
 #page { min-height:100%; _height:100%; margin-bottom:0px;}
+.site-title{margin-top:1em;}
+.site-title h1{margin: 0 auto; font-size: 60px;display:inline;padding-left:8%;}
+
 #menu ul li, #menu ul
-{
-   display :inline;
-   list-style-type:none; 
-   padding-right: 0.5em;   
+{ 
+display :inline; 
+list-style-type:none;
+padding-right: 0.5em;
 }
 #menu{font-size:1.1em;}
 #menu a,#menu a:hover{color: #fa8072;font-style: none;}
