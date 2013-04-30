@@ -8,12 +8,13 @@ body,div,ul,li { margin:0; padding:0;}
 .site-title{margin-top:1em;}
 .site-title h1{margin: 0 auto; font-size: 60px;display:inline;padding-left:8%;}
 
-#menu ul li, #menu ul
+ul li, ul
 { 
 display :inline; 
 list-style-type:none;
 padding-right: 0.5em;
 }
+
 #menu{font-size:1.1em;}
 #menu a,#menu a:hover{color: #fa8072;font-style: none;}
 #nav{padding-top: 2em;}
